@@ -14,21 +14,21 @@ public class DesafioNivelHeroi {
         quantidadeXp = Float.parseFloat(scanner.nextLine());
 
         if (quantidadeXp < 1000) {
-            System.out.println(nomeHeroi + " é um herói de Ferro.");
+            System.out.println("O Herói de nome **" + nomeHeroi + "** é um herói de Ferro.");
         } else if (quantidadeXp <= 2000) {
-            System.out.println(nomeHeroi + " é um herói de Bronze.");
+            System.out.println("O Herói de nome **" + nomeHeroi + "** é um herói de Bronze.");
         } else if (quantidadeXp <= 5000) {
-            System.out.println(nomeHeroi + " é um herói de Prata.");
+            System.out.println("O Herói de nome **" + nomeHeroi + "** é um herói de Prata.");
         } else if (quantidadeXp <= 7000) {
-            System.out.println(nomeHeroi + " é um herói de Ouro.");
+            System.out.println("O Herói de nome **" + nomeHeroi + "** é um herói de Ouro.");
         } else if (quantidadeXp <= 8000) {
-            System.out.println(nomeHeroi + " é um herói de Platina.");
+            System.out.println("O Herói de nome **" + nomeHeroi + "** é um herói de Platina.");
         } else if (quantidadeXp <= 9000) {
-            System.out.println(nomeHeroi + " é um herói Ascendente.");
+            System.out.println("O Herói de nome **" + nomeHeroi + "** é um herói Ascendente.");
         } else if (quantidadeXp <= 10000) {
-            System.out.println(nomeHeroi + " é um herói Imortal.");
+            System.out.println("O Herói de nome **" + nomeHeroi + "** é um herói Imortal.");
         } else {
-            System.out.println(nomeHeroi + " é um herói Radiante.");
+            System.out.println("O Herói de nome **" + nomeHeroi + "** é um herói Radiante.");
         }
     }
 }
